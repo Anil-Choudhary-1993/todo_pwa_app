@@ -1,4 +1,3 @@
-
 workbox.skipWaiting()
 workbox.clientsClaim()
 
