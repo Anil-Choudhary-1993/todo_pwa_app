@@ -1,10 +1,11 @@
 {
-  "name": "pwa_app",
+  "name": "todo-pwa",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -23,7 +24,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "react-app-rewired": "^1.6.2",
-    "serve": "^10.1.1"
+    "react-app-rewired": "^1.6.2"
   }
 }

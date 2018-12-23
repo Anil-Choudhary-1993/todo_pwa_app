@@ -43,7 +43,6 @@ app.delete('/items.json', (req, res) => {
     if(item.id !== req.body.id) {
       return item
     }
-    return null
   })
   res.json(items)
 })
